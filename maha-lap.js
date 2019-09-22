@@ -40,6 +40,5 @@ class mahalap {
 //   default:
 //     return day;
 // }
-// }
-// }
+
 module.exports = mahalap;

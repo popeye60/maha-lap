@@ -1,34 +1,34 @@
 const mahalap = require("./maha-lap");
 describe("Test Maha-Lap", () => {
-  test("Test Tamnai with day จันทร์", () => {
+  test("Test Tamnai with  จันทร์", () => {
     const result = mahalap.tamnaiWithDay("จันทร์");
     expect(result).toEqual(2);
   });
-  test("Test Tamnai with day อังคาร", () => {
+  test("Test Tamnai with  อังคาร", () => {
     const result = mahalap.tamnaiWithDay("อังคาร");
     expect(result).toEqual(3);
   });
-  test("Test Tamnai with day พุธ", () => {
+  test("Test Tamnai with  พุธ", () => {
     const result = mahalap.tamnaiWithDay("พุธ");
     expect(result).toEqual(4);
   });
-  test("Test Tamnai with day พฤหัสบดี", () => {
+  test("Test Tamnai with  พฤหัสบดี", () => {
     const result = mahalap.tamnaiWithDay("พฤหัสบดี");
     expect(result).toEqual(5);
   });
-  test("Test Tamnai with day ศุกร์", () => {
+  test("Test Tamnai with  ศุกร์", () => {
     const result = mahalap.tamnaiWithDay("เสาร์");
     expect(result).toEqual(7);
   });
-  test("Test Tamnai with day สงกรานต์", () => {
+  test("Test Tamnai with  สงกรานต์", () => {
     const result = mahalap.tamnaiWithDay("สงกรานต์");
     expect(result).toEqual(13);
   });
-  test("Test Tamnai with day ฮาโลวีน", () => {
+  test("Test Tamnai with  ฮาโลวีน", () => {
     const result = mahalap.tamnaiWithDay("ฮาโลวีน");
     expect(result).toEqual(31);
   });
-  test("Test Tamnai with day คริสมาสต์", () => {
+  test("Test Tamnai with  คริสมาสต์", () => {
     const result = mahalap.tamnaiWithDay("คริสมาสต์");
     expect(result).toEqual(25);
   });
